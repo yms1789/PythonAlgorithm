@@ -5,7 +5,8 @@ input = sys.stdin.readline
 N = int(input())
 
 count = 0
-board=[0 for i in range(15)]
+board = [0 for i in range(15)]
+
 
 def nqueen(move_x):
     global count
